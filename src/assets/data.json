@@ -6,12 +6,12 @@
     },
     {
         "categoria": "propiedad",
-        "tipo": "Duplex",
+        "tipo": "Dúplex",
         "factor": 1.12
     },
     {
         "categoria": "propiedad",
-        "tipo": "Depto",
+        "tipo": "Departamento",
         "factor": 1.15
     },
     {
@@ -26,7 +26,7 @@
     },
     {
         "categoria": "propiedad",
-        "tipo": "Local Comercio",
+        "tipo": "Local Comercial",
         "factor": 1.45
     },
     {
