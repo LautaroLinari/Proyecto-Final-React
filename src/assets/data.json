@@ -1,0 +1,57 @@
+[
+    {
+        "categoria": "propiedad",
+        "tipo": "Casa",
+        "factor": 1.10
+    },
+    {
+        "categoria": "propiedad",
+        "tipo": "Duplex",
+        "factor": 1.12
+    },
+    {
+        "categoria": "propiedad",
+        "tipo": "Depto",
+        "factor": 1.15
+    },
+    {
+        "categoria": "propiedad",
+        "tipo": "Barrio Privado",
+        "factor": 1.20
+    },
+    {
+        "categoria": "propiedad",
+        "tipo": "Oficina",
+        "factor": 2.40
+    },
+    {
+        "categoria": "propiedad",
+        "tipo": "Local Comercio",
+        "factor": 1.45
+    },
+    {
+        "categoria": "propiedad",
+        "tipo": "Depósito Logística",
+        "factor": 1.95
+    },
+    {
+        "categoria": "ubicacion",
+        "tipo": "CABA",
+        "factor": 1.20
+    },
+    {
+        "categoria": "ubicacion",
+        "tipo": "Norte Argentino",
+        "factor": 1.05
+    },
+    {
+        "categoria": "ubicacion",
+        "tipo": "Costa Atlántica",
+        "factor": 1.25
+    },
+    {
+        "categoria": "ubicacion",
+        "tipo": "Patagonia",
+        "factor": 1.30
+    }
+]
