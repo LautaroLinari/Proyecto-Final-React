@@ -129,8 +129,3 @@ const UserForm = () => {
   }
   
   export default UserForm  
-
-  /*Hola Pablo, disculpa te molesto ya que me corregiste el trabajo pasado jajaja, queria consultar un par de cosas del proyecto final: la primera es que yo hice todo lo relacionado 
-  al formulario en un solo componente (la duda es si deberia separarlo en varios), despues tambien 
-
-  */
