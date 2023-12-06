@@ -132,7 +132,7 @@ const UserForm = () => {
 
                 <div className="p-2">
                     <label htmlFor="" className="flex font-semibold text-xl p-2">Tipo de Propiedad</label>
-                    <select name="" id="tipoPropiedad" onChange={handleTipoPropiedad} className="text-start text-xl w-full" required>
+                    <select name="" id="tipoPropiedad" onChange={handleTipoPropiedad} className="text-start text-xl w-full pl-2" required>
                         <option value="">-- Seleccionar Propiedad --</option>
                         {displayData}
                     </select>
@@ -140,7 +140,7 @@ const UserForm = () => {
 
                 <div className="p-2">
                     <label htmlFor="" className="flex font-semibold text-xl p-2">Ubicación</label>
-                    <select name="" id="ubicacion" onChange={handleUbicacion} className="text-start text-xl w-full" required>
+                    <select name="" id="ubicacion" onChange={handleUbicacion} className="text-start text-xl w-full pl-2" required>
                     <option value="">-- Seleccionar Ubicación --</option>
                         {displayData2}
                     </select>
@@ -148,17 +148,17 @@ const UserForm = () => {
 
                 <div className="p-2">
                     <label htmlFor="" className="flex font-semibold text-xl p-2">Ingresar Metros Cuadrados:</label>
-                    <input id="metros" className="w-full text-xl" value={userData.m2} onChange={handleM2Change} type="number" min={20} max={500} required/>
+                    <input id="metros" className="w-full text-xl pl-2" value={userData.m2} onChange={handleM2Change} type="number" min={20} max={500} required/>
                 </div>
 
                 <div className="p-2">
                     <label htmlFor="" className="flex font-semibold text-xl p-2">Ingresar Año de Construcción:</label>
-                    <input id="año" className="w-full text-xl" type="number" value={userData.anio} onChange={handleAnioChange} min={1800} max={2024} required/>
+                    <input id="año" className="w-full text-xl pl-2" type="number" value={userData.anio} onChange={handleAnioChange} min={1800} max={2024} required/>
                 </div>
 
                 <div className="p-2">
                     <label htmlFor="" className="flex font-semibold text-xl p-2">Cobertura:</label>
-                    <select name="" id="cobertura" onChange={handleCobertura} className="text-start text-xl w-full" required>
+                    <select name="" id="cobertura" onChange={handleCobertura} className="text-start text-xl w-full pl-2" required>
                         <option value="">--Seleccionar Cobertura--</option>
                         <option value="basica">Basica</option>
                         <option value="completa">Completa</option>
