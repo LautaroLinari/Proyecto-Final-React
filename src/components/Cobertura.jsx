@@ -3,8 +3,8 @@ import DivCobertura from './utils/DivCobertura.jsx'
 function Cobertura() {
   return (
     <div className="">
-        <h3 className="text-2xl font-bold tracking-wider text-center bg-gray-200 w-auto p-2">Opciones de seguro de Cobertura:</h3>
-        <div className="flex flex-row items-center justify-center gap-10 p-12 bg-cyan-100">
+        <h3 className="text-2xl font-bold tracking-wider text-center bg-slate-200 w-auto underline p-2">Opciones de seguro de Cobertura:</h3>
+        <div className="flex flex-row items-center justify-center gap-10 p-12 bg-slate-200">
             <div className="flex flex-col items-start border border-black rounded p-10 bg-white">
 
                 <p className="text-center text-3xl font-semibold text-orange-500">Plan Básico:</p>                              
