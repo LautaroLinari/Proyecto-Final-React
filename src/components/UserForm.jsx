@@ -49,8 +49,6 @@ const UserForm = () => {
             setUserData({...userData, cobertura: e.target.value});
         }
 
-
-
         const handleSubmit = (event) => {
             event.preventDefault();
             resultado();
@@ -126,61 +124,63 @@ const UserForm = () => {
 
     
     return (
-        <form className="flex flex-col items-center justify-center p-8 w-full" onSubmit={handleSubmit}>
-            <div className="bg-slate-200 p-8 rounded">
-                <h1 className="font-bold text-3xl p-2">Completar con los datos solicitados:</h1>
+        <div className={``}>
+            <form className="flex flex-col items-center justify-center p-8 w-full" onSubmit={handleSubmit}>
+                <div className="bg-slate-200 p-8 rounded">
+                    <h1 className="font-bold text-3xl p-2">Completar con los datos solicitados:</h1>
 
-                <div className="p-2">
-                    <label htmlFor="" className="flex font-semibold text-xl p-2">Tipo de Propiedad</label>
-                    <select name="" id="tipoPropiedad" onChange={handleTipoPropiedad} className="text-start text-xl w-full pl-2" required>
-                        <option value="">-- Seleccionar Propiedad --</option>
-                        {displayData}
-                    </select>
-                </div>
-
-                <div className="p-2">
-                    <label htmlFor="" className="flex font-semibold text-xl p-2">Ubicación</label>
-                    <select name="" id="ubicacion" onChange={handleUbicacion} className="text-start text-xl w-full pl-2" required>
-                    <option value="">-- Seleccionar Ubicación --</option>
-                        {displayData2}
-                    </select>
-                </div>
-
-                <div className="p-2">
-                    <label htmlFor="" className="flex font-semibold text-xl p-2">Ingresar Metros Cuadrados:</label>
-                    <input id="metros" className="w-full text-xl pl-2" value={userData.m2} onChange={handleM2Change} type="number" min={20} max={500} required/>
-                </div>
-
-                <div className="p-2">
-                    <label htmlFor="" className="flex font-semibold text-xl p-2">Ingresar Año de Construcción:</label>
-                    <input id="año" className="w-full text-xl pl-2" type="number" value={userData.anio} onChange={handleAnioChange} min={1800} max={2024} required/>
-                </div>
-
-                <div className="p-2">
-                    <label htmlFor="" className="flex font-semibold text-xl p-2">Cobertura:</label>
-                    <select name="" id="cobertura" onChange={handleCobertura} className="text-start text-xl w-full pl-2" required>
-                        <option value="">--Seleccionar Cobertura--</option>
-                        <option value="basica">Basica</option>
-                        <option value="completa">Completa</option>
-                    </select>
-
-                <div className="flex flex-col items-center justify-center p-6 w-full">
-                    <div className="flex items-center justify-center">
-                        <button id="btnForm" type="submit" className="text-center text-xl mt-4 p-2 bg-slate-300 hover:bg-green-700 text-black hover:text-white rounded-xl">Cotización</button>
+                    <div className="p-2">
+                        <label htmlFor="" className="flex font-semibold text-xl p-2">Tipo de Propiedad</label>
+                        <select name="" id="tipoPropiedad" onChange={handleTipoPropiedad} className="text-start text-xl w-full pl-2" required>
+                            <option value="">-- Seleccionar Propiedad --</option>
+                            {displayData}
+                        </select>
                     </div>
+
+                    <div className="p-2">
+                        <label htmlFor="" className="flex font-semibold text-xl p-2">Ubicación</label>
+                        <select name="" id="ubicacion" onChange={handleUbicacion} className="text-start text-xl w-full pl-2" required>
+                        <option value="">-- Seleccionar Ubicación --</option>
+                            {displayData2}
+                        </select>
+                    </div>
+
+                    <div className="p-2">
+                        <label htmlFor="" className="flex font-semibold text-xl p-2">Ingresar Metros Cuadrados:</label>
+                        <input id="metros" className="w-full text-xl pl-2" value={userData.m2} onChange={handleM2Change} type="number" min={20} max={500} required/>
+                    </div>
+
+                    <div className="p-2">
+                        <label htmlFor="" className="flex font-semibold text-xl p-2">Ingresar Año de Construcción:</label>
+                        <input id="año" className="w-full text-xl pl-2" type="number" value={userData.anio} onChange={handleAnioChange} min={1800} max={2024} required/>
+                    </div>
+
+                    <div className="p-2">
+                        <label htmlFor="" className="flex font-semibold text-xl p-2">Cobertura:</label>
+                        <select name="" id="cobertura" onChange={handleCobertura} className="text-start text-xl w-full pl-2" required>
+                            <option value="">--Seleccionar Cobertura--</option>
+                            <option value="basica">Basica</option>
+                            <option value="completa">Completa</option>
+                        </select>
+
+                    <div className="flex flex-col items-center justify-center p-6 w-full">
+                        <div className="flex items-center justify-center">
+                            <button id="btnForm" type="submit" className="shadow text-center text-xl mt-4 p-2 bg-slate-300 hover:bg-green-700 text-black hover:text-white rounded-xl">Cotización</button>
+                        </div>
+                    </div>
+
+
+                    </div>
+
+                    <div className="flex flex-row items-center justify-center p-6 w-full">
+                        <p className='text-green-700 text-4xl font-semibold text-center pr-1'>$ </p>
+                        <p id='resume' className='text-green-700 text-5xl font-bold text-center'> 0,00 </p> 
+                        <p className='text-green-800 text-lg font-bold text-center pl-1'>/mes</p>
+                    </div>
+
                 </div>
-
-
-                </div>
-
-                <div className="flex flex-row items-center justify-center p-6 w-full">
-                    <p className='text-green-700 text-4xl font-semibold text-center pr-1'>$ </p>
-                    <p id='resume' className='text-green-700 text-5xl font-bold text-center'> 0,00 </p> 
-                    <p className='text-green-800 text-lg font-bold text-center pl-1'>/mes</p>
-                </div>
-
-            </div>
-        </form>
+            </form>
+        </div>
     )   
   }
   
