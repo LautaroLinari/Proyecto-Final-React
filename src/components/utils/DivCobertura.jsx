@@ -5,10 +5,10 @@ function DivCobertura(props) {
 
     return (
         <>
-          <p className="text-center text-3xl font-semibold text-orange-500">{title}</p>                              
-          <div className="flex items-center p-4 border-b">
+          <p className="text-center text-xl md:text-3xl font-semibold text-orange-500">{title}</p>                              
+          <div className="flex items-center p-4 border-b w-full">
             <img className='' src={image} alt=""/>
-            <p className="flex text-lg pl-2">{text} <p className="font-semibold text-end pl-5">{valor}</p></p>
+            <p className="flex text-base lg:text-lg pl-2">{text} <p className="font-semibold lg:pl-5 pl-2">{valor}</p></p>
           </div>
         </>
     )

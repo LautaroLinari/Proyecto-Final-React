@@ -10,10 +10,12 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+
     <Nav />
     <Header />
     <UserForm />
     <Cobertura />
     <Footer />
+    
   </React.StrictMode>,
 )
