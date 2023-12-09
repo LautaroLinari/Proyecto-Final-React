@@ -13,8 +13,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
     <Nav />
     <Header />
-    <UserForm />
     <Cobertura />
+    <UserForm />
     <Footer />
     
   </React.StrictMode>,

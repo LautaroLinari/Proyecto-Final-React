@@ -59,7 +59,7 @@ const UserForm = () => {
             //Variable para mostrar el precio total
             const resumen = document.querySelector("#resume")
             //Precio M2
-            const precioM2 = userData.m2 * 40.50;
+            const precioM2 = userData.m2 * 38.20;
             //Sacar edad
             const edad = 2024 - userData.anio;
             //Precio dependiendo la edad del lugar
