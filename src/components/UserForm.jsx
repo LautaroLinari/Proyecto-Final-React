@@ -52,8 +52,8 @@ const UserForm = () => {
         const handleSubmit = (event) => {
             event.preventDefault();
             resultado();
-
         }
+
 
         function resultado(){
             //Variable para mostrar el precio total
@@ -79,7 +79,7 @@ const UserForm = () => {
                     resumen.innerText = precioTotal1;
                     
                 } else{
-                    let completa = 3500;
+                    let completa = 3000;
                     precioTotal1 = precioTotal1 + completa;
                     //Mostrar unicamente 2 float
                     precioTotal1 = parseFloat(Math.round(precioTotal1 * 100) / 100).toFixed(2);
@@ -96,7 +96,7 @@ const UserForm = () => {
                     precioTotal2 = parseFloat(Math.round(precioTotal2 * 100) / 100).toFixed(2);
                     resumen.innerText = precioTotal2;
                 } else{
-                    let completa = 3500;
+                    let completa = 3000;
                     precioTotal2 = precioTotal2 + completa;
                     //Mostrar unicamente 2 float
                     precioTotal2 = parseFloat(Math.round(precioTotal2 * 100) / 100).toFixed(2);
@@ -113,7 +113,7 @@ const UserForm = () => {
                     precioTotal3 = parseFloat(Math.round(precioTotal3 * 100) / 100).toFixed(2);
                     resumen.innerText = precioTotal3;
                 } else{
-                    let completa = 3500;
+                    let completa = 3000;
                     precioTotal3 = precioTotal3 + completa;
                     //Mostrar unicamente 2 float
                     precioTotal3 = parseFloat(Math.round(precioTotal3 * 100) / 100).toFixed(2);
@@ -147,7 +147,7 @@ const UserForm = () => {
 
                     <div className="p-2">
                         <label htmlFor="" className="flex font-semibold text-xl p-2">Ingresar Metros Cuadrados:</label>
-                        <input id="metros" className="w-full md:text-xl pl-2 bg-white dark:bg-neutral-600 text-black dark:text-white" value={userData.m2} onChange={handleM2Change} type="number" min={20} max={500} required/>
+                        <input id="metros" className="w-full md:text-xl pl-2 bg-white dark:bg-neutral-600 text-black dark:text-white" value={userData.m2} onChange={handleM2Change} type="number" min={20} max={350} required/>
                     </div>
 
                     <div className="p-2">
@@ -165,9 +165,11 @@ const UserForm = () => {
 
                     <div className="flex flex-col items-center justify-center p-6 w-full">
                         <div className="flex items-center justify-center">
-                            <button id="btnForm" type="submit" className="shadow text-center text-xl mt-4 p-2 bg-slate-400 dark:bg-neutral-600 hover:bg-green-700 dark:hover:bg-green-700 text-black dark:text-white dark:hover:text-black hover:text-white rounded-xl">Cotización</button>
+                            <button id="btnForm" type="submit" className="shadow text-center text-xl mt-4 p-2 bg-slate-400 dark:bg-neutral-600 hover:bg-green-700 dark:hover:bg-green-700 text-black dark:text-white dark:hover:text-black hover:text-white rounded-xl">
+                                Cotizar
+                            </button>
                         </div>
-                    </div>
+                    </div>  
 
 
                     </div>

@@ -36,13 +36,18 @@
     },
     {
         "categoria": "ubicacion",
-        "tipo": "CABA",
+        "tipo": "Capital (CABA)",
         "factor": 1.20
     },
     {
         "categoria": "ubicacion",
+        "tipo": "Gran Buenos Aires (AMBA)",
+        "factor": 0.92
+    },
+    {
+        "categoria": "ubicacion",
         "tipo": "Norte Argentino",
-        "factor": 1.05
+        "factor": 1.10
     },
     {
         "categoria": "ubicacion",

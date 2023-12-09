@@ -25,7 +25,7 @@ import { useEffect, useState } from "react"
 
 
     return (
-        <div className="flex items-center justify-around bg-slate-100 p-4 dark:bg-neutral-800">
+        <div className="flex items-center justify-around bg-slate-100 p-3 dark:bg-neutral-950 fixed w-full">
             <h2 className="font-bold text-base  md:text-xl dark:text-white">Seguros para tu Hogar</h2>
             
             <label className="relative inline-flex items-center">
