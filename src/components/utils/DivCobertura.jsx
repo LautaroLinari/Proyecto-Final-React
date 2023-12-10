@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 
 //Componente con props para usar posteriormente
 function DivCobertura(props) {
+  //Declaracion de constante/props
     const {image, text, valor, title} = props;
 
     return (

@@ -33,6 +33,8 @@ JSX:
     • Header.jsx: Este archivo React unicamente muestra un banner de fondo con una descripcion de lo que hace el proyecto en si.
     • Cobertura.jsx: Es un archivo React contiene las tarjetas/cards donde se muestran los costos de cada cobertura y su valor final que se tiene en cuenta para la funcion resultado.
     • DivCobertura.jsx: El archivo React contiene unicamente div para simplificar el contenido de Cobertura.jsx, ademas muestra la utilizacion de props.
+    • Section.jsx: Es un archivo React contiene una section para representar un contenido.
+    • Card.jsx: El archivo React contiene unicamente div para simplificar el contenido de Section.jsx, ademas muestra la utilizacion de props.
 
 ADD:
     • En este proyecto se utilizo TailWind para toda estilizacion del proyecto, tambien GoogleFonts para tipo de letra.

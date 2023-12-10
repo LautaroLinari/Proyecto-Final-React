@@ -5,6 +5,7 @@ import Nav from './components/Nav.jsx'
 import UserForm from './components/UserForm.jsx'
 import Cobertura from './components/Cobertura.jsx'
 import Footer from './components/Footer.jsx'
+import Section from './components/Section.jsx'
 import './assets/index.css'
 
 
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Header />
     <Cobertura />
     <UserForm />
+    <Section />
     <Footer />
     
   </React.StrictMode>,

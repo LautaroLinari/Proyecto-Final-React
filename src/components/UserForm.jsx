@@ -182,7 +182,7 @@ const UserForm = () => {
                             <option value="completa">Completa</option>
                         </select>
 
-                    <div className="flex flex-col items-center justify-center p-6 w-full">
+                    <div className="flex flex-col items-center justify-center p-4 w-full">
                         {/* Declarado tipo Submit para utilizarlo correctamente en el onSubmit y obtener el precio final por mes */}
                         <div className="flex items-center justify-center">
                             <button id="btnForm" type="submit" className="shadow text-center text-lg md:text-xl mt-4 p-2 bg-slate-400 dark:bg-neutral-600 hover:bg-green-700 dark:hover:bg-green-700 text-black dark:text-white dark:hover:text-black hover:text-white rounded-xl">
@@ -194,7 +194,7 @@ const UserForm = () => {
 
                     </div>
 
-                    <div className="flex flex-row items-center justify-center p-4 w-full">
+                    <div className="flex flex-row items-center justify-center p-2 w-full">
                         <p className='text-green-700 text-2xl md:text-4xl font-semibold text-center pr-1'>$ </p>
                         {/* Tiene el id: resume para poder modificarlo y mostrar el precio final */}
                         <p id='resume' className='text-green-700 text-3xl md:text-5xl font-bold text-center'> 0,00 </p> 

@@ -4,8 +4,8 @@ import DivCobertura from './utils/DivCobertura.jsx'
 function Cobertura() {
   return (
     <div className="">
-        <h3 className="text-xl md:text-2xl font-bold tracking-wide text-cyan-600 dark:text-cyan-500 text-center bg-slate-200 dark:bg-neutral-800 w-auto underline pt-5">Opciones de seguro de Cobertura:</h3>
-        <div className="grid md:flex items-center justify-center p-12 md:gap-10 bg-slate-200 dark:bg-neutral-800">
+        <h3 className="text-xl md:text-2xl font-bold tracking-wide text-orange-600 dark:text-orange-500 text-center bg-slate-200 dark:bg-neutral-800 w-auto underline pt-5">Opciones de seguro de Cobertura:</h3>
+        <div className="grid md:flex items-center justify-center p-8 md:gap-10 bg-slate-200 dark:bg-neutral-800">
 
             <div className="p-8 border rounded border-white bg-white dark:bg-neutral-800 text-black dark:text-white shadow-2xl hover:border-neutral-600">
                 <DivCobertura title='Plan Básico:'/>                         
