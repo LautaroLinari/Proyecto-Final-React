@@ -3,6 +3,7 @@
 #Proyecto React Diplomatura Front-End UNTREF
 #Realizado por: Lautaro Linari
 
+https://proyecto-final-react-xi-rosy.vercel.app/
 
 ---------------------------------------------------------------------------------------------------------------------
 instrucción para ejecturalo localmente:
