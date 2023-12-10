@@ -3,6 +3,21 @@
 #Proyecto React Diplomatura Front-End UNTREF
 #Realizado por: Lautaro Linari
 
+
+---------------------------------------------------------------------------------------------------------------------
+Instruccion para ejecturalo localmente:
+
+-Descomprimir el ZIP
+-Abrir la carpeta extraida en el VSC
+-Abrir una terminal y ejecutar el comando 'npx create-vite proyecto-react-lautaro --template react'
+-Una vez terminado vacie la carpeta 'proyecto-react-lautaro'
+-Copie los archivos extraidos del ZIP y peguelos en la carpeta 'proyecto-react-lautaro'
+-En la terminal use el comando 'cd proyecto-react-lautaro'
+-Ingrese npm install
+-Una vez termine ingrese npm run dev
+
+Podra visualizar el proyecto de manera local.
+
 ---------------------------------------------------------------------------------------------------------------------
 Características del Proyecto:
 
