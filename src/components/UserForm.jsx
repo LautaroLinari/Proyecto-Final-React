@@ -6,8 +6,8 @@ const UserForm = () => {
     const [userData, setUserData] = useState({
         tipo: '0',
         ubi: '0',
-        m2: '20',
-        anio: '1800',
+        m2: '0',
+        anio: '0',
         cobertura: '',
     });
 
@@ -165,8 +165,8 @@ const UserForm = () => {
                     </div>
 
                     <div className="p-2">
-                        <label htmlFor="" className="flex font-semibold text-lg md:text-xl p-2">Ingresar Metros Cuadrados:</label>
-                        <input id="metros" className="w-full md:text-xl pl-2 bg-white dark:bg-neutral-600 text-black dark:text-white" value={userData.m2} onChange={handleM2Change} type="number" min={20} max={350} required/>
+                        <label htmlFor="m2" className="flex font-semibold text-lg md:text-xl p-2">Ingresar Metros Cuadrados:</label>
+                        <input id="m2" name='m2' className="w-full md:text-xl pl-2 bg-white dark:bg-neutral-600 text-black dark:text-white" value={userData.m2} onChange={handleM2Change} type="number" min={20} max={350} required/>
                     </div>
 
                     <div className="p-2">

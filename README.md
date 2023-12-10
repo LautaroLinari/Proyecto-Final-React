@@ -56,5 +56,6 @@ ADD:
 
 ---------------------------------------------------------------------------------------------------------------------
 Consideraciones: 
-x - No logre la utilizacion de useEffect y fetch para la obtencion de datos del JSON
-x - A la hora de realizar el despliegue en Vercel, no logro que los iconos de Cobertura logren verse.
+x - No logre la utilizacion de useEffect y fetch para la obtencion de datos del JSON.
+x - A la hora de realizar el despliegue en Vercel, no logro que los iconos de Cobertura.jsx logren verse.
+x - No logre la utilizacion de validacion en el formulario.
