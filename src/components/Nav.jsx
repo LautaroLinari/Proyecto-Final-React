@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 
     function Nav() {
     const [theme, setTheme] = useState(() => {
+        //Preferencia por claro o oscuro
         if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
             return "dark";
         }
@@ -10,6 +11,7 @@ import { useEffect, useState } from "react"
         return "light";
     });
 
+    //Claro o Oscuro
     useEffect(() => {
         if(theme ==="dark"){
             document.querySelector('html').classList.add("dark");
@@ -18,15 +20,15 @@ import { useEffect, useState } from "react"
         }
     }, [theme]);
 
+    //onClick para cambiar de modo/theme.
     const handleChangeTheme = () => {
         setTheme(prevTheme => prevTheme === "light" ? "dark" : "light");
-        console.log(theme);
     }
 
 
     return (
         <div className="flex items-center justify-around bg-slate-100 p-3 dark:bg-neutral-950 fixed w-full">
-            <h2 className="font-bold text-base  md:text-xl dark:text-white">Seguros para tu Hogar</h2>
+            <h2 className="font-bold text-lg md:text-xl dark:text-white">Seguros para tu Hogar</h2>
             
             <label className="relative inline-flex items-center">
                 <input type="checkbox" value="" className="sr-only peer" />
